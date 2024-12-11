@@ -24,5 +24,23 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.12.0",
     "vite": "^6.0.1"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MhmmdEmmi/the-need-for-coffee.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "CSS",
+    "React",
+    "JS"
+  ],
+  "author": "Mohammad Emami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MhmmdEmmi/the-need-for-coffee/issues"
+  },
+  "homepage": "https://github.com/MhmmdEmmi/the-need-for-coffee#readme"
 }
