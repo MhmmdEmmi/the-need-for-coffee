@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">های ورلد</h1>
+      <main className="overflow-x-hidden antialiased text-neutral-800">
+        <Navbar />
+      </main>
     </>
   );
 }
