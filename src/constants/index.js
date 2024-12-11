@@ -1,4 +1,4 @@
-// import TheCoffeeCollective03 from "../assets/images/TheCoffeeCollective03.webp";
+import TheCoffeeCollective03 from "../assets/images/TheCoffeeCollective03.webp";
 
 export const LINKS = [
   {
@@ -22,3 +22,9 @@ export const LINKS = [
     link: "#aboutMe",
   },
 ];
+
+export const HERO_CONTENT = {
+  title: "داستان قهوه",
+  subtitle: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+  image: TheCoffeeCollective03,
+};
