@@ -79,3 +79,8 @@
 body {
   @apply font-vazirmatn text-neutral-800;
 }
+
+:root {
+  background-color: #fafaf9;
+}
+  
