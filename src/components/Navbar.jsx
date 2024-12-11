@@ -1,5 +1,6 @@
 import { RiCloseLine, RiMenu3Line } from "@remixicon/react";
 import { useState } from "react";
+import { LINKS } from "../constants/index";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +28,33 @@ const Navbar = () => {
               {isOpen ? <RiCloseLine /> : <RiMenu3Line />}
             </button>
           </div>
+
+          <div className="hidden md:flex space-x-8 md:space-x-8 pl-2">
+            {LINKS.map((link, index) => (
+              <a key={index} href={link.link} className="text-sm font-medium">
+                {link.name}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div
+          className={`${
+            isOpen ? "block" : "hidden"
+          } md:hidden absolute bg-neutral-50 w-full py-5 mt-2 border-b-4`}
+        >
+          {LINKS.map((link, index) => (
+            <a
+              key={index}
+              href={link.link}
+              className="text-lg font-medium block py-2 tracking-wide"
+            >
+              {link.name}
+            </a>
+         ))}
         </div>
       </nav>
+
     </>
   );
 };

@@ -1,4 +1,4 @@
-import TheCoffeeCollective03 from "../assets/images/TheCoffeeCollective03.webp";
+// import TheCoffeeCollective03 from "../assets/images/TheCoffeeCollective03.webp";
 
 export const LINKS = [
   {
