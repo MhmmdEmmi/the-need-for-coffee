@@ -7,7 +7,7 @@ export const LINKS = [
   },
   {
     name: "وبلاگ",
-    link: "#TheBlog",
+    link: "#theBlog",
   },
   {
     name: "رویدادها",
@@ -15,10 +15,10 @@ export const LINKS = [
   },
   {
     name: "داستان قهوه",
-    link: "#TheCoffeeStory",
+    link: "#theCoffeeStory",
   },
   {
     name: "درباره من",
-    link: "#AboutMe",
+    link: "#aboutMe",
   },
 ];
