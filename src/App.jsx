@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Blog from "./components/Blog";
 import Events from "./components/Events";
 import TheStoryOfCoffee from "./components/TheStoryOfCoffee";
+import Reviews from "./components/Reviews";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Blog />
         <Events />
         <TheStoryOfCoffee />
+        <Reviews />
       </main>
     </>
   );
