@@ -1,5 +1,11 @@
 import TheCoffeeCollective03 from "../assets/images/TheCoffeeCollective03.webp";
 
+export const HERO_CONTENT = {
+  title: "داسـتان قهـوه",
+  subtitle: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+  image: TheCoffeeCollective03,
+};
+
 export const LINKS = [
   {
     name: "خانه",
@@ -22,12 +28,6 @@ export const LINKS = [
     link: "#aboutMe",
   },
 ];
-
-export const HERO_CONTENT = {
-  title: "داستان قهوه",
-  subtitle: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
-  image: TheCoffeeCollective03,
-};
 
 export const BLOG_CONTENT = [
   {
