@@ -136,3 +136,19 @@ export const REVIEWS = {
     },
   ],
 };
+
+export const CONTACT_INFO = {
+  text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
+  phone: {
+    label: "موبایل",
+    value: "912-031-2153 (98+)",
+  },
+  email: {
+    label: "ایمیل",
+    value: "mhmmd.emmi@gmail.com",
+  },
+  address: {
+    label: "آدرس",
+    value: "یـزد، ایـران",
+  },
+};
