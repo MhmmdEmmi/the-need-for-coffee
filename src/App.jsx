@@ -5,6 +5,7 @@ import Events from "./components/Events";
 import TheStoryOfCoffee from "./components/TheStoryOfCoffee";
 import Reviews from "./components/Reviews";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <TheStoryOfCoffee />
         <Reviews />
         <ContactUs />
+        <Footer />
       </main>
     </>
   );
