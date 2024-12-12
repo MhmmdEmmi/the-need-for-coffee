@@ -1,3 +1,4 @@
+import logo from "../assets/images/logo.webp";
 import { RiCloseLine, RiMenu3Line } from "@remixicon/react";
 import { useState } from "react";
 import { LINKS } from "../constants/index";
@@ -15,7 +16,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
           <div className="pr-2">
             <a href="#">
-              {/* <img src={logo} alt="logo" width={150} height={15} /> */}
+              <img src={logo} alt="logo" width={40} />
             </a>
           </div>
 
