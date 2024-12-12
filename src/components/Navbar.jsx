@@ -30,9 +30,9 @@ const Navbar = () => {
             </button>
           </div>
 
-          <div className="hidden md:grid md:grid-cols-5 space-x-8 md:space-x-4 pl-2">
+          <div className="hidden md:grid md:grid-cols-5 space-x-8 md:space-x-6 pl-2">
             {LINKS.map((link, index) => (
-              <a key={index} href={link.link} className="text-sm font-medium">
+              <a key={index} href={link.link} className="text-sm font-light">
                 {link.name}
               </a>
             ))}
@@ -48,7 +48,7 @@ const Navbar = () => {
             <a
               key={index}
               href={link.link}
-              className="text-lg font-medium block py-2 tracking-wide"
+              className="text-lg font-light block py-2 tracking-wide"
             >
               {link.name}
             </a>

@@ -18,7 +18,7 @@ export const LINKS = [
     link: "#theCoffeeStory",
   },
   {
-    name: "درباره من",
+    name: "درباره‌ی ما",
     link: "#aboutMe",
   },
 ];
