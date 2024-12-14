@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 className="text-6xl lg:text-[10rem] p-2 font-bold">
             {HERO_CONTENT.title}
           </h1>
-          <p className="lg:mt-6 text-sm mb-4 tracking-tighter">
+          <p className="lg:mt-6 font-extralight text-base mb-4 tracking-widest">
             {HERO_CONTENT.subtitle}
           </p>
           <img

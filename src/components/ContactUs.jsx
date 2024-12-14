@@ -9,7 +9,7 @@ const ContactUs = () => {
           <h2 className="text-xl lg:text-5xl tracking-tight text-center mb-12">
             تماس با ما
           </h2>
-          <p className="max-w-2xl text-lg mb-12 text-center mx-auto">
+          <p className="max-w-2xl font-extralight text-lg mb-20 text-center mx-auto">
             {CONTACT_INFO.text}
           </p>
           <div className="flex flex-col lg:flex-row justify-around mx-4">
