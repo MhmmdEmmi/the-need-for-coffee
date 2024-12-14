@@ -6,7 +6,7 @@ const ContactUs = () => {
     <>
       <section className="max-w-7xl mx-auto" id="contact">
         <div className="my-20">
-          <h2 className="text-xl lg:text-3xl tracking-tight text-center mb-12">
+          <h2 className="text-xl lg:text-5xl tracking-tight text-center mb-12">
             تماس با ما
           </h2>
           <p className="max-w-2xl text-lg mb-12 text-center mx-auto">

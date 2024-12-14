@@ -7,7 +7,7 @@ const TheStoryOfCoffee = () => {
         className="max-w-7xl mx-auto border-b-2 mt-20"
         id="theStoryOfCoffee"
       >
-        <h2 className="text-xl lg:text-3xl tracking-tight text-center mb-12 mx-4">
+        <h2 className="text-xl lg:text-5xl tracking-tight text-center mb-12 mx-4">
           داستان قهوه
         </h2>
         <div className="flex flex-col items-center lg:space-x-8 mx-4 mb-20">

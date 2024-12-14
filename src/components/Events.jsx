@@ -5,8 +5,8 @@ const Events = () => {
     <>
       <section className="max-w-7xl mx-auto border-b-2" id="events">
         <div className="mb-20">
-          <h2 className="text-xl lg:text-3xl tracking-tight text-center mt-20 mb-12">
-            رویدادهـا
+          <h2 className="text-xl lg:text-5xl tracking-tight text-center mt-20 mb-12">
+            بلاگ
           </h2>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {EVENTS_PROJECTS.map((event) => (
