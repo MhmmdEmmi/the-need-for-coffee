@@ -4,6 +4,12 @@ import TheCoffeeCollective06 from "../assets/images/TheCoffeeCollective06.webp";
 import TheCoffeeCollective07 from "../assets/images/TheCoffeeCollective07.webp";
 import TheCoffeeCollective020 from "../assets/images/TheCoffeeCollective020.webp";
 
+import TheCoffeeBlog01 from "../assets/images/TheCoffeeBlog01.webp";
+import TheCoffeeBlog02 from "../assets/images/TheCoffeeBlog02.webp";
+import TheCoffeeBlog03 from "../assets/images/TheCoffeeBlog03.webp";
+import TheCoffeeBlog04 from "../assets/images/TheCoffeeBlog04.webp";
+import TheCoffeeBlog05 from "../assets/images/TheCoffeeBlog05.webp";
+
 TheCoffeeCollective020;
 export const HERO_CONTENT = {
   title: "داسـتان قهـوه",
@@ -71,32 +77,40 @@ export const EVENTS_PROJECTS = [
     id: 1,
     name: "نام نام نام",
     description:
-      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله",
-    image: TheCoffeeCollective03,
+      "به اولین خبرنامه از بسیاری از خبرنامه های آینده خوش آمدید. در این خبرنامه، رویدادهای Harvesting Sustainability، Hadsel Cupping در Grandmother Coffee Roastery، بهترین نماینده قهوه تخصصی، روز جهانی ام اس و آنچه من دم می کنم را پوشش می دهیم.",
+    image: TheCoffeeBlog01,
     link: "#",
   },
   {
     id: 2,
-    name: "نام نام نام",
+    name: "داستان یه معمار",
     description:
-      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله",
-    image: TheCoffeeCollective03,
+      "The Need For Coffee یک مشارکت کننده جدید دارد - اندرو چانگ یک معمار، عکاس، طراح وب سایت و نوشیدنی قهوه است که در سیدنی مستقر است. او در مورد وبلاگ خود، بهترین طرح های کافه، صحبت می کند که رشد فرهنگ جهانی کافه ها را ترسیم می کند و با بیش از 40 معمار، عکاس و نویسنده همکاری می کند.",
+    image: TheCoffeeBlog02,
     link: "#",
   },
   {
     id: 3,
-    name: "نام نام نام",
+    name: "Roastery قهوه مادربزرگ: ساخت قهوه برجسته",
     description:
-      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله",
-    image: TheCoffeeCollective03,
+      "هفته گذشته COFE و اینتلکت میزبان یک جلسه حجامت بسیار ویژه بودند. این نمایشگاه زیبا که توسط انواع دستگاه های اسپرسوساز La Marzocco احاطه شده است، فضای ایده آلی برای تقویت تجربه بالا بردن قهوه است. برخی از بهترین پیشنهادات اینتلکت روی میز بود.",
+    image: TheCoffeeBlog03,
     link: "#",
   },
   {
     id: 4,
-    name: "نام نام نام",
+    name: "اولین پست وبلاگ من",
     description:
-      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله",
-    image: TheCoffeeCollective03,
+      "به Need for Coffee خوش آمدید و من نوید هستم. من اینجا هستم تا در مورد تجربه قهوه و برخوردهای روزانه خود با متخصصان صنعت قهوه اینجا در امارات به اشتراک بگذارم.",
+    image: TheCoffeeBlog04,
+    link: "#",
+  },
+  {
+    id: 5,
+    name: "طعم ماچا را دوست ندارید؟ این را بخوانید!",
+    description:
+      "درست مثل قهوه، اولین تجربه من با ماچا عالی نبود. طعم آن تلخ، خاکی بود و بوی عجیبی شبیه ماهی داشت. شیر تا حدی به پوشاندن این طعم‌ها کمک کرد، اما نمی‌توانستم کاملاً بفهمم که چرا نوشیدنی‌های ماچا تا این حد محبوب شده‌اند.",
+    image: TheCoffeeBlog05,
     link: "#",
   },
 ];
