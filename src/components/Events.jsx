@@ -3,7 +3,7 @@ import { EVENTS_PROJECTS } from "../constants";
 const Events = () => {
   return (
     <>
-      <section className="max-w-7xl mx-auto border-b-2" id="events">
+      <section className="max-w-7xl mx-auto border-b-2" id="theBlog">
         <div className="mb-20">
           <h2 className="text-xl lg:text-5xl tracking-tight text-center mt-20 mb-12">
             بلاگ
@@ -20,8 +20,10 @@ const Events = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
-                  <h3 className="mb-2 text-xl font-medium">{event.name}</h3>
-                  <p className="mb-12 p-4">{event.description}</p>
+                  <h3 className="mb-2 text-xl font-medium text-white">
+                    {event.name}
+                  </h3>
+                  <p className="mb-12 p-4 text-white">{event.description}</p>
                 </div>
               </div>
             ))}

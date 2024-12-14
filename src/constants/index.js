@@ -1,3 +1,5 @@
+import hero from "../assets/images/hero.webp";
+
 import TheCoffeeCollective02 from "../assets/images/TheCoffeeCollective02.webp";
 import TheCoffeeCollective03 from "../assets/images/TheCoffeeCollective03.webp";
 import TheCoffeeCollective06 from "../assets/images/TheCoffeeCollective06.webp";
@@ -9,13 +11,14 @@ import TheCoffeeBlog02 from "../assets/images/TheCoffeeBlog02.webp";
 import TheCoffeeBlog03 from "../assets/images/TheCoffeeBlog03.webp";
 import TheCoffeeBlog04 from "../assets/images/TheCoffeeBlog04.webp";
 import TheCoffeeBlog05 from "../assets/images/TheCoffeeBlog05.webp";
+import TheCoffeeBlog06 from "../assets/images/TheCoffeeBlog06.webp";
 
 TheCoffeeCollective020;
 export const HERO_CONTENT = {
   title: "داسـتان قهـوه",
   subtitle:
     "قهوه فقط یک نوشیدنی نیست. همدمی است که روح را بیدار می کند و روز را شکل می دهد.",
-  image: TheCoffeeCollective03,
+  image: hero,
 };
 
 export const LINKS = [
@@ -37,7 +40,7 @@ export const LINKS = [
   },
   {
     name: "درباره‌ی ما",
-    link: "#aboutMe",
+    link: "#aboutUs",
   },
 ];
 
@@ -75,7 +78,7 @@ export const BLOG_CONTENT = [
 export const EVENTS_PROJECTS = [
   {
     id: 1,
-    name: "نام نام نام",
+    name: "رویدادهای تخصصی",
     description:
       "به اولین خبرنامه از بسیاری از خبرنامه های آینده خوش آمدید. در این خبرنامه، رویدادهای Harvesting Sustainability، Hadsel Cupping در Grandmother Coffee Roastery، بهترین نماینده قهوه تخصصی، روز جهانی ام اس و آنچه من دم می کنم را پوشش می دهیم.",
     image: TheCoffeeBlog01,
@@ -111,6 +114,14 @@ export const EVENTS_PROJECTS = [
     description:
       "درست مثل قهوه، اولین تجربه من با ماچا عالی نبود. طعم آن تلخ، خاکی بود و بوی عجیبی شبیه ماهی داشت. شیر تا حدی به پوشاندن این طعم‌ها کمک کرد، اما نمی‌توانستم کاملاً بفهمم که چرا نوشیدنی‌های ماچا تا این حد محبوب شده‌اند.",
     image: TheCoffeeBlog05,
+    link: "#",
+  },
+  {
+    id: 6,
+    name: "یک سمفونی خوش طعم: روستری مستقر در دبی بهترین تجربه جفت کردن قهوه را کامل می کند",
+    description:
+      "تجربه ای که نمی دانستم لازم است. یک لقمه از شیرینی، یک جرعه قهوه، هیچ هماهنگی بین این دو وجود ندارد. به همین دلیل است که جفت کردن مواد غذایی مهم است.",
+    image: TheCoffeeBlog06,
     link: "#",
   },
 ];

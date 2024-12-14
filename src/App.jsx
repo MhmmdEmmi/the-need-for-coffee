@@ -13,9 +13,9 @@ export default function App() {
       <main className="overflow-x-hidden antialiased text-neutral-800">
         <Navbar />
         <Hero />
+        <TheStoryOfCoffee />
         <Blog />
         <Events />
-        <TheStoryOfCoffee />
         <Reviews />
         <ContactUs />
         <Footer />

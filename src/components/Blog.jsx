@@ -3,7 +3,7 @@ import { BLOG_CONTENT } from "../constants";
 const Blog = () => {
   return (
     <>
-      <section className="max-w-7xl mx-auto border-b-2" id="blog">
+      <section className="max-w-7xl mx-auto border-b-2" id="events">
         <div className="my-20">
           <h2 className="text-xl lg:text-5xl tracking-tight text-center mb-20">
             رویدادها

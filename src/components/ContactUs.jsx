@@ -4,7 +4,7 @@ import { RiMailLine, RiMapPinLine, RiPhoneLine } from "@remixicon/react";
 const ContactUs = () => {
   return (
     <>
-      <section className="max-w-7xl mx-auto" id="contact">
+      <section className="max-w-7xl mx-auto" id="aboutUs">
         <div className="my-20">
           <h2 className="text-xl lg:text-5xl tracking-tight text-center mb-12">
             تماس با ما
