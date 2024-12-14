@@ -1,8 +1,19 @@
-# React + Vite
+# Create a Simple Landing Page from React JS, Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
 
-Currently, two official plugins are available:
+This template is a simple landing page from react js, tailwind css and published by Tailwind CSS framework.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Built with
+
+- tailwindcss V3.4.16
+- remixicon/react V4.5.0
+
+### Useful resource
+
+- [React JS Docs](https://react.dev/learn) - to give the features and tools needed for design
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/installation) - to give the features and tools needed for design
+
+### Author
+
+- LinkedIn - [@MhmmdEmmi](https://www.linkedin.com/in/mhmmdemmi/)
