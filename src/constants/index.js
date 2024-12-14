@@ -27,16 +27,16 @@ export const LINKS = [
     link: "#home",
   },
   {
-    name: "وبلاگ",
-    link: "#theBlog",
+    name: "داستان قهوه",
+    link: "#theCoffeeStory",
   },
   {
     name: "رویدادها",
     link: "#events",
   },
   {
-    name: "داستان قهوه",
-    link: "#theCoffeeStory",
+    name: "وبلاگ",
+    link: "#theBlog",
   },
   {
     name: "درباره‌ی ما",
